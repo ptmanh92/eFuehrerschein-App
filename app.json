@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Elektronische Führerscheine",
+    "slug": "eFuehrerscheine",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f5f2e4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.manhphan.eFuehrerscheine"
+    },
+    "android": {
+      "adaptiveIcon":{
+        "foregroundImage": "./assets/pefTxt.png",
+        "backgroundColor": "#f5f2e4"
+      },
+      "package": "com.manhphan.eFuehrerscheine"
+    }
+  }
+}
